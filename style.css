@@ -194,6 +194,7 @@ img {
     font-size: 1.8rem;
     line-height: 140%;
     margin-bottom: 0;
+    font-weight: 500;
   }
   .agency-rating-ctnr {
     max-width: 445px;
@@ -245,18 +246,21 @@ img {
     justify-content: space-between;
     margin-bottom: 7.1em;
   }
+  .rating-item {
+    padding: 2em 3em;
+  }
   .hero {
     margin: 0 0;
     max-width: 420px;
     margin-bottom: 0;
     text-align: left;
   }
-  .testimony-item {
+  /* .testimony-item {
     animation-name: example;
     animation-duration: 4s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-  }
+  } */
 }
 
 @media (min-width: 1280px) {
