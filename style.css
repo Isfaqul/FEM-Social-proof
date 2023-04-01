@@ -222,6 +222,9 @@ img {
 }
 
 @media (min-width: 1160px) {
+  main {
+    margin-top: 0;
+  }
   .testimony-item:nth-of-type(2) {
     transform: translateY(20px);
   }
