@@ -234,8 +234,11 @@ img {
 }
 
 @media (min-width: 1200px) {
+  main {
+    justify-content: space-between;
+  }
   .top-row {
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     gap: 3em;
@@ -248,6 +251,12 @@ img {
     margin-bottom: 0;
     text-align: left;
   }
+  .testimony-item {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -256,5 +265,17 @@ img {
   }
   .rating-item:nth-of-type(2) {
     transform: translateX(-50px);
+  }
+}
+
+@keyframes example {
+  0% {
+    transform: translateY(inherit);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(inherit);
   }
 }
